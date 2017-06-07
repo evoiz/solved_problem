@@ -11,6 +11,7 @@ for(long long  i=2;i<=1000001;i++){
       for(int i=0;i<=10;i++){
         for(int j=1;j<=1000000;j++) v[i][j] = v[i][j-1] + (pr[j]==i) ;
     }
+    
 }
 int main(){
 start();
